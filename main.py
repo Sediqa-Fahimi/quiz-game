@@ -9,7 +9,8 @@ INSTRUCTIONS = """
 """
 
 # List of all of the questions, options, and answer. 
-game_dict = [ { "question": 'What is fear of spiders called?', 'options': ['Arachnophobia','Claustrophobia','Acrophobia','Aerophobia'], 'answer': 'Arachnophobia'} ,
+game_dict = [ 
+{ "question": 'What is fear of spiders called?', 'options': ['Arachnophobia','Claustrophobia','Acrophobia','Aerophobia'], 'answer': 'Arachnophobia'} ,
 {"question": 'What is the capital city of Australia?','options': ['Melbourne','Sydney','Adelaide','Perth'],'answer': 'Sydney'},
 {"question": 'What continent is Czech Republic in?','options': ['Asia','America','Africa','Europe'],'answer': 'Europe'},
 {"question": 'What is the official language of China?','options': ['Mandarin','Cantonese','Hunanese','Kejia'],'answer': 'Mandarin'},
@@ -61,7 +62,9 @@ def check_the_answer(n):
             return True
         else:
             return False
- 
+
+
+
 # Function to match score with prize
 def match_score(scr):
     
@@ -78,6 +81,8 @@ def match_score(scr):
     else:
         prize = "nothing 😐"
     return prize
+
+
 
 # Main function of the game
 def play_game():
@@ -128,5 +133,7 @@ def play_game():
     # printing scores and prize(if any)    
     gift = match_score(score)
     print(f"\nResults:\nScore: {score}\nCorrect Answers: {correct_answers}\nIncorrect Answers: {incorrect_answers}\nYou won {gift}")
+
+
 
 play_game()
