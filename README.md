@@ -12,4 +12,4 @@ An interactive command-line quiz game coded in Python.
 
 \> clone this repo
 
-\> run the game in an IDE terminal like(VScode)
+\> run the game in an IDE terminal, like(VScode).
