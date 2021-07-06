@@ -4,7 +4,7 @@
 
 **Overview**:
 
-An interactive command-line quiz game coded in Python.  
+An interactive command-line quiz game in Python.  
 
 
 
